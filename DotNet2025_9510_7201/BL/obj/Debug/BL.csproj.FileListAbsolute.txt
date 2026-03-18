@@ -1,0 +1,5 @@
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\BL\obj\Debug\BL.AssemblyInfo.cs
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache

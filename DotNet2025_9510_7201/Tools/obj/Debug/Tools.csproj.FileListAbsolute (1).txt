@@ -1,0 +1,23 @@
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\bin\Tools.deps.json
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\bin\Tools.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\bin\Tools.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfo.cs
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\Tools.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\refint\Tools.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\Tools.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\Tools\obj\Debug\ref\Tools.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\bin\Tools.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\bin\Tools.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\bin\Tools.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\Tools\obj\Debug\Tools.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\Tools\obj\Debug\refint\Tools.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\Tools\obj\Debug\Tools.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\Tools\obj\Debug\ref\Tools.dll

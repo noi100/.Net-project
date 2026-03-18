@@ -1,0 +1,64 @@
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:08:47	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:08:47	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:08:47	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	Create Product
+27/02/2026 10:11:26	Dal.ProductImplementation.Create	finish Create Product
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	Create Sale
+27/02/2026 10:11:26	Dal.SaleImplementation.Create	finish Create Sale
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	finish Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	Create Customer
+27/02/2026 10:11:26	Dal.CustomerImplementation.Create	finish Create Customer

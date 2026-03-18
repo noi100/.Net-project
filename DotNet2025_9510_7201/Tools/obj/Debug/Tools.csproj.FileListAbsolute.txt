@@ -1,0 +1,11 @@
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\bin\Tools.deps.json
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\bin\Tools.dll
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\bin\Tools.pdb
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfo.cs
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.dll
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\refint\Tools.dll
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.pdb
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\ref\Tools.dll

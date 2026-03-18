@@ -1,0 +1,62 @@
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalTest.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalTest.runtimeconfig.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalTest.exe
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalTest.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalTest.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.csproj.AssemblyReference.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.csproj.Up2Date
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project2\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project3 הגשה\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\project4\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.deps.json
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\bin\Debug\net8.0\DalFacade.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll

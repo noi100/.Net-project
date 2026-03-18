@@ -1,0 +1,17 @@
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\bin\Debug\net6.0\DalList.deps.json
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\bin\Debug\net6.0\DalList.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\bin\Debug\net6.0\DalList.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\bin\Debug\net6.0\DalFacade.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\bin\Debug\net6.0\Tools.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\bin\Debug\net6.0\DalFacade.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\bin\Debug\net6.0\Tools.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\DalList.csproj.AssemblyReference.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\DalList.GeneratedMSBuildEditorConfig.editorconfig
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\DalList.AssemblyInfoInputs.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\DalList.AssemblyInfo.cs
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\DalList.csproj.CoreCompileInputs.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\DalList.csproj.CopyComplete
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\DalList.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\refint\DalList.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\DalList.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalList\obj\Debug\net6.0\ref\DalList.dll

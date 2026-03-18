@@ -1,0 +1,11 @@
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\bin\DalFacade.deps.json
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\bin\DalFacade.dll
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\bin\DalFacade.pdb
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.dll
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\refint\DalFacade.dll
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.pdb
+D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\ref\DalFacade.dll

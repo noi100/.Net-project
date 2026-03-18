@@ -1,0 +1,12 @@
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\bin\Debug\net6.0\DalFacade.deps.json
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\bin\Debug\net6.0\DalFacade.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\bin\Debug\net6.0\DalFacade.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\DalFacade.csproj.AssemblyReference.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\DalFacade.AssemblyInfoInputs.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\DalFacade.AssemblyInfo.cs
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\DalFacade.csproj.CoreCompileInputs.cache
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\DalFacade.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\refint\DalFacade.dll
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\DalFacade.pdb
+F:\יד\c# מתקדם\project5\DotNet2025_9510_7201\DalFacade\obj\Debug\net6.0\ref\DalFacade.dll
