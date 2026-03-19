@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Do;
 
-namespace Dal
+namespace DalXml
 {
     internal class CustomerImplementation : ICustomer
     {
