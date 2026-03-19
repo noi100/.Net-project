@@ -11,17 +11,23 @@ namespace DalTest
         private static IDal s_dal = DalApi.Factory.Get;
         private static void Main(string[] args)
         {
-            //Console.WriteLine("if you want to delet pars 1");
-            //int num = int.Parse(Console.ReadLine());
-            //if (num == 1)
-            //    LogManager.DeletFiles();
-            Initialization.Initialize();
-            //??? האם להכניס את הטרי לתוך הוויל
-            try
+            // --- שלב א: אתחול נתונים אופציונלי ---
+            Console.WriteLine("Do you want to initialize data? (Y/N)");
+            string? answer = Console.ReadLine();
+            if (answer?.ToUpper() == "Y")
             {
-                int select1 = PrintMainMenu();
-                while (select1 != 0)
+                Initialization.Initialize();
+            }
+
+            int select1;
+            do
+            {
+                // --- שלב ב: הכנסת ה-try לתוך הלולאה ---
+                try
                 {
+                    select1 = PrintMainMenu();
+                    if (select1 == 0) break;
+
                     switch (select1)
                     {
                         case 1:
@@ -33,28 +39,31 @@ namespace DalTest
                             SaleMenu();
                             break;
                         case 3:
-                            Console.WriteLine("Custemer");
+                            Console.WriteLine("Customer"); // תיקון שגיאת כתיב קטנה מ-Custemer
                             CustomerMenu();
                             break;
-                        //??
-                        case 0:
-                            Console.WriteLine("exist");
-                            break;
                         default:
-                            Console.WriteLine("Wrong selection!!! \n please select again");
+                            Console.WriteLine("Wrong selection!!! please select again");
                             break;
                     }
-                    select1 = PrintMainMenu();
                 }
-            }
-            //להשתמש בID?
-            catch (DalDoesNotExistException e)
-            {
-                LogManager.WriteStart(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "Error DalDoesNotExistException");
-                Console.WriteLine(e.Message);
-                Console.ReadLine();
-            }
+                catch (DalDoesNotExistException e)
+                {
+                    LogManager.WriteStart(MethodBase.GetCurrentMethod()?.DeclaringType?.FullName,
+                                         MethodBase.GetCurrentMethod()?.Name, "Error DalDoesNotExistException");
+                    Console.WriteLine($"Error: {e.Message}");
+                }
+                catch (Exception e) // מומלץ להוסיף תפיסה כללית כדי שהתוכנית לא תקרוס מכל שגיאה
+                {
+                    Console.WriteLine($"An unexpected error occurred: {e.Message}");
+                }
+
+                Console.WriteLine("\nReturning to Main Menu...");
+
+            } while (true); // הלולאה תמשיך עד שהמשתמש יקיש 0 בתוך PrintMainMenu או ב-switch
         }
+
+
         private static void ProductMenu()
         {
             Console.WriteLine("enter for AddProduct 1, for UpdateProduct 2, for ReadAll 3, for Read 4 , for Delete 5");
