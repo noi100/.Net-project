@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlApi
+namespace BlImplementation
 {
-    public interface ICustomer
+    internal class OrderImplementation:BlApi.IOrder
     {
+        private DalApi.IDal _dal = DalApi.Factory.Get;
     }
 }

@@ -10,7 +10,7 @@ namespace BO
     {
         public int id { get; set; }
         public string? name { get; set; }
-        public string? adress { get; set; }
+        public string? address { get; set; }
         public int? phoneNumber { get; set; }
 
         public override string ToString() => this.ToStringProperty();
