@@ -14,6 +14,6 @@ namespace BlApi
         public void Add(Product product);
         public void Update(Product product);
         public void Delete(int id);
-        public void allSales(int productId, bool ifFavorite);
+        public IEnumerable<BO.SaleInProduct> allSales(int productId, bool ifFavorite);
     }
 }

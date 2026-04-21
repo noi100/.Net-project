@@ -1,87 +1,112 @@
-﻿using System;
+﻿using BO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using BO;
 
 namespace BlImplementation
 {
     internal class CustomerImplementation : BlApi.ICustomer
     {
+        // גישה לשכבת הנתונים דרך ה-Factory
         private DalApi.IDal _dal = DalApi.Factory.Get;
 
-        public IEnumerable<Customer> GetList()
+        //יצירת רשימה של הלקוחות מסוג BO, ע"י שיממוש בפונקציה TOBO 
+        public IEnumerable<BO.Customer> GetList()
         {
-            return _dal.Customer.ReadAll()
-                .Select(c => new BO.Customer()
-                {
-                    id = c.Id,      // ב-DO זה Id גדול
-                    name = c.Name,  // ב-DO זה Name גדול
-                    address = c.Address,
-                    phoneNumber = int.TryParse(c.Phone, out int p) ? p : 0
-                });
+            return from doCust in _dal.Customer.ReadAll()
+                   select doCust.ToBO();
         }
 
-        public Customer Get(int id)
+        /// מחזיר לקוח ספציפי לפי תעודת זהות
+        public BO.Customer Get(int id)
         {
-            var c = _dal.Customer.Read(id);
-            if (c == null)
-                throw new BO.BLDoesNotExistException($"Customer with ID {id} does not exist");
+            if (id <= 0)
+                throw new BO.BLInvalidInputException("תעודת זהות חייבת להיות מספר חיובי.");
 
-            return new BO.Customer()
+            Do.Customer? doCust;
+            try
             {
-                id = c.Id,
-                name = c.Name,
-                address = c.Address,
-                phoneNumber = int.TryParse(c.Phone, out int p) ? p : 0
-            };
+                doCust = _dal.Customer.Read(id);
+                if (doCust == null)
+                    throw new BO.BLDoesNotExistException($"לקוח עם תעודת זהות {id} לא נמצא.");
+            }
+            catch (Exception ex)
+            {
+                throw new BO.BLDoesNotExistException("שגיאה בשליפת נתוני לקוח", ex);
+            }
+
+            return doCust.ToBO();
         }
 
-        public void Add(Customer customer)
+        /// <summary>
+        /// הוספת לקוח חדש למערכת
+        /// </summary>
+        public void Add(BO.Customer customer)
         {
+            // בדיקות תקינות קלט (שלב 8)
             if (customer.id <= 0)
-                throw new BO.BLInvalidInputException("Invalid ID");
+                throw new BO.BLInvalidInputException("תעודת זהות אינה תקינה.");
+            if (string.IsNullOrWhiteSpace(customer.name))
+                throw new BO.BLInvalidInputException("שם לקוח חובה.");
 
             try
             {
-                // שימי לב: DO באותיות גדולות, ושדות ב-DAL באותיות גדולות
-                _dal.Customer.Create(new Do.Customer()
-                {
-                    Id = customer.id,
-                    Name = customer.name,
-                    Address = customer.address,
-                    Phone = customer.phoneNumber.ToString()
-                });
+                // יצירת DO מה-BO (ה-record ב-Do משתמש ב-adress עם s אחת לפי הקובץ שלך)
+                Do.Customer doCust = new Do.Customer(
+                    customer.id,
+                    customer.name!,
+                    customer.address ?? "",
+                    customer.phoneNumber ?? 0
+                );
+
+                _dal.Customer.Create(doCust);
             }
             catch (Exception ex)
             {
-                throw new BO.BLAlreadyExistsException("Customer already exists", ex);
+                throw new BO.BLAlreadyExistsException($"לקוח עם תעודת זהות {customer.id} כבר קיים.", ex);
             }
         }
 
-        public void Update(Customer customer)
+        /// עדכון נתוני לקוח קיים
+        public void Update(BO.Customer customer)
         {
             try
             {
-                _dal.Customer.Update(new Do.Customer()
-                {
-                    id = customer.id,
-                    name = customer.name,
-                    address = customer.address,
-                    phoneNumber = customer.phoneNumber.ToString()
-                });
+                // (BO יצירת אוביקט מסוג דו על פי הנתונים שהתקבלו בפונקציה(אובייקט מסוג
+                Do.Customer doCust = new Do.Customer(
+                    customer.id,
+                    customer.name!,
+                    customer.address ?? "",
+                    customer.phoneNumber ?? 0
+                );
+
+                //עדכון הלקוח באמצעות הפרטים מהאובייקט החדש
+                _dal.Customer.Update(doCust);
             }
             catch (Exception ex)
             {
-                throw new BO.BLDoesNotExistException("Customer not found", ex);
+                throw new BO.BLDoesNotExistException($"עדכון נכשל: לקוח {customer.id} לא נמצא.", ex);
             }
         }
 
+        /// מחיקת לקוח מהמערכת
         public void Delete(int id)
         {
-            try { _dal.Customer.Delete(id); }
-            catch (Exception ex) { throw new BO.BLDoesNotExistException("Not found", ex); }
+            try
+            {
+                _dal.Customer.Delete(id);
+            }
+            catch (Exception ex)
+            {
+                throw new BO.BLDoesNotExistException($"מחיקה נכשלה: לקוח {id} לא נמצא.", ex);
+            }
         }
 
-        public bool ExistingCustomer(int id) => _dal.Customer.Read(id) != null;
+
+        /// בדיקה האם לקוח קיים במערכת
+        public bool ExistingCustomer(int id)
+        {
+            return _dal.Customer.Read(id) != null;
+        }
     }
 }
