@@ -37,3 +37,17 @@ D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalLi
 D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\refint\DalList.dll
 D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.pdb
 D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\ref\DalList.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\DalList.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\DalList.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\DalList.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\refint\DalList.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\DalList.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalList\obj\Debug\ref\DalList.dll

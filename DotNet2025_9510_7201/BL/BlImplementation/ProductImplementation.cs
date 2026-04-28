@@ -8,7 +8,7 @@ namespace BlImplementation
     internal class ProductImplementation : BlApi.IProduct
     {
         // גישה לשכבת הנתונים
-        private DalApi.IDal _dal = DalApi.Factory.Get;
+        private readonly DalApi.IDal _dal = DalApi.Factory.Get;
 
         //יצירת רשימה של מוצרים מסוג BO, ע"י שיממוש בפונקציה TOBO
         public IEnumerable<BO.Product> GetList()

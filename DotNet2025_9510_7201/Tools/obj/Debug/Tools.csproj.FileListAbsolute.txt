@@ -9,3 +9,15 @@ D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools
 D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\refint\Tools.dll
 D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.pdb
 D:\יד\c# מתקדם\jm_EXs4z6cSfU-RbG1\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\ref\Tools.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\Tools.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\Tools.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\Tools.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.sourcelink.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\refint\Tools.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\ref\Tools.dll

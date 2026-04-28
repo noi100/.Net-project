@@ -8,7 +8,7 @@ namespace BlImplementation
     internal class SaleImplementation : BlApi.ISale
     {
         // גישה לשכבת הנתונים דרך ה-Factory
-        private DalApi.IDal _dal = DalApi.Factory.Get;
+        private readonly DalApi.IDal _dal = DalApi.Factory.Get;
 
         /// שליפת כל המבצעים הקיימים והמרתם לישויות לוגיות (BO)
         public IEnumerable<BO.Sale> GetList()
@@ -23,14 +23,12 @@ namespace BlImplementation
         {
             try
             {
-                //משתנה שיחזיק את המבצע 
-                Do.Sale? doSale = _dal.Sale.Read(id);
-                if (doSale == null)
-                    throw new BO.BLDoesNotExistException($"מבצע עם מזהה {id} לא נמצא.");
-                //החזרת המבצע לאחר ההמרה ל BO
+                Do.Sale doSale = _dal.Sale.Read(id)
+                    ?? throw new BO.BLDoesNotExistException($"מבצע עם מזהה {id} לא נמצא.");
+
                 return doSale.ToBO();
             }
-            catch (Exception ex)
+            catch (Exception ex) when (ex is not BO.BLDoesNotExistException)
             {
                 throw new BO.BLDoesNotExistException($"שגיאה בשליפת מבצע {id}", ex);
             }

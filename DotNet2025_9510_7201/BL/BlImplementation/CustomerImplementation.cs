@@ -8,7 +8,8 @@ namespace BlImplementation
     internal class CustomerImplementation : BlApi.ICustomer
     {
         // גישה לשכבת הנתונים דרך ה-Factory
-        private DalApi.IDal _dal = DalApi.Factory.Get;
+        //הוספתי readonly
+        private readonly DalApi.IDal _dal = DalApi.Factory.Get;
 
         //יצירת רשימה של הלקוחות מסוג BO, ע"י שיממוש בפונקציה TOBO 
         public IEnumerable<BO.Customer> GetList()

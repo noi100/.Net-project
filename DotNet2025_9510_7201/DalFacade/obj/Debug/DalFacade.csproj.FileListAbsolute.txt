@@ -21,3 +21,15 @@ C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\Dot
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.pdb
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\אחרי 6 ו-7\DotNet2025_9510_7201\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\DalFacade.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\bin\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\ref\DalFacade.dll

@@ -13,10 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "Tools\Tools.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xml", "xml", "{353910C0-F150-4203-B91B-9C2159EAC629}"
 	ProjectSection(SolutionItems) = preProject
-		xml\dal-config.xml = xml\dal-config.xml
 		xml\customers.xml = xml\customers.xml
-		xml\products.xml = xml\products.xml
+		xml\dal-config.xml = xml\dal-config.xml
 		xml\data-config.xml = xml\data-config.xml
+		xml\products.xml = xml\products.xml
 		xml\sales.xml = xml\sales.xml
 	EndProjectSection
 EndProject
@@ -25,6 +25,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlTests", "BlTests\BlTests.csproj", "{B8697FA6-E76F-4DD4-B510-3F7180373F0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalXml", "DalXml\DalXml.csproj", "{30D40265-57EA-490D-B420-E507620F3967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{55B1924C-F8EF-4027-8BF0-44CFCDC3F011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +62,10 @@ Global
 		{30D40265-57EA-490D-B420-E507620F3967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D40265-57EA-490D-B420-E507620F3967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D40265-57EA-490D-B420-E507620F3967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B1924C-F8EF-4027-8BF0-44CFCDC3F011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B1924C-F8EF-4027-8BF0-44CFCDC3F011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B1924C-F8EF-4027-8BF0-44CFCDC3F011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B1924C-F8EF-4027-8BF0-44CFCDC3F011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

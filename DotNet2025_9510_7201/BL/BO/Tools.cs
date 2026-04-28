@@ -70,7 +70,7 @@ public static class Tools
         {
             id = doCustomer.id,
             name = doCustomer.name,
-            adress = doCustomer.adress,
+            address = doCustomer.adress,
             phoneNumber = doCustomer.phoneNumber,
         };
     }

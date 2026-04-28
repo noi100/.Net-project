@@ -8,7 +8,7 @@ namespace BlImplementation
     internal class OrderImplementation : BlApi.IOrder
     {
         // גישה לשכבת הנתונים דרך ה-Factory
-        private DalApi.IDal _dal = DalApi.Factory.Get;
+        private readonly DalApi.IDal _dal = DalApi.Factory.Get;
 
         ///  הוספת מוצר להזמנה
         ///  מקבלת ID של מוצר
