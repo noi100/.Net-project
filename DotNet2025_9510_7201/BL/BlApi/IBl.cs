@@ -13,6 +13,10 @@ namespace BlApi
             IProduct Product { get; }
             ISale Sale { get; }    
             ICustomer Customer { get; }
-        
+      /// <summary>
+      /// 
+      /// </summary>
+            IOrder Order { get; }
+
     }
 }

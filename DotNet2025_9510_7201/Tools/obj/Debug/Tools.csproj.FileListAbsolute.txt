@@ -21,3 +21,15 @@ C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\refint\Tools.dll
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\Tools.pdb
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\Tools\obj\Debug\ref\Tools.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\Tools.deps.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\Tools.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\Tools.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\Tools.AssemblyInfo.cs
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\Tools.sourcelink.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\Tools.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\refint\Tools.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\Tools.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\Tools\obj\Debug\ref\Tools.dll

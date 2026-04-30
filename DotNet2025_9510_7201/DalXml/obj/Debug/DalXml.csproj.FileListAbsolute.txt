@@ -12,3 +12,17 @@ C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalXml\obj\Debug\refint\DalXml.dll
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.pdb
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalXml\obj\Debug\ref\DalXml.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalXml.deps.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalXml.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalXml.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.sourcelink.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.csproj.Up2Date
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\refint\DalXml.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\DalXml.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalXml\obj\Debug\ref\DalXml.dll

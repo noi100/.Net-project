@@ -47,3 +47,20 @@ C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.pdb
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalTest\obj\Debug\ref\DalTest.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalTest.exe
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalTest.deps.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalTest.runtimeconfig.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalTest.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalTest.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.sourcelink.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.csproj.Up2Date
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\refint\DalTest.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalTest\obj\Debug\ref\DalTest.dll

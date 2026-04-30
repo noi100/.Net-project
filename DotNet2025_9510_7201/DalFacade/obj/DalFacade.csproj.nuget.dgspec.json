@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\תחילת 8\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {}
+    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {}
   },
   "projects": {
-    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\תחילת 8\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
+    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\תחילת 8\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\תחילת 8\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\בני ראם\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\תחילת 8\\DotNet2025_9510_7201\\DalFacade\\obj\\",
+        "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\בני ראם\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,3 +15,29 @@ C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\UI\obj\Debug\UI.pdb
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\UI\obj\Debug\UI.genruntimeconfig.cache
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\UI\obj\Debug\ref\UI.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ClientListForm.resources
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ManagerForm.resources
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.OrderForm.resources
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ProductForm.resources
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ProductListForm.resources
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ProductSelectionForm.resources
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.SaleListForm.resources
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.WelcomeForm.resources
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.AssemblyInfo.cs
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.sourcelink.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\refint\UI.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\UI.exe
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\UI.deps.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\UI.runtimeconfig.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\UI.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\UI.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.csproj.Up2Date
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.genruntimeconfig.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\ref\UI.dll

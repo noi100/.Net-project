@@ -33,3 +33,15 @@ C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.pdb
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\DalFacade\obj\Debug\ref\DalFacade.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalFacade.deps.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalFacade.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\DalFacade.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.sourcelink.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\refint\DalFacade.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\DalFacade.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalFacade\obj\Debug\ref\DalFacade.dll

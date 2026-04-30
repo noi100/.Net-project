@@ -17,3 +17,17 @@ C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\BL\obj\Debug\refint\BL.dll
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\BL\obj\Debug\BL.pdb
 C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\תחילת 8\DotNet2025_9510_7201\BL\obj\Debug\ref\BL.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\BL.deps.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\BL.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\BL.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.AssemblyInfo.cs
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.sourcelink.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.csproj.Up2Date
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\refint\BL.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\BL.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BL\obj\Debug\ref\BL.dll
