@@ -16,7 +16,7 @@ namespace UI
 
         private void ClientManagementButton_Click_1(object sender, EventArgs e)
         {
-            new ClientListForm().ShowDialog();
+            new CustomerListForm().ShowDialog();
         }
 
         private void SaleManagementButton_Click(object sender, EventArgs e)
