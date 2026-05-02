@@ -11,14 +11,12 @@ namespace UI
 {
     public partial class ProductSelectionForm : Form
     {
-        // מאפיין לשמירת ה-ID שנבחר כדי שהטופס המזמין יוכל לגשת אליו
         public int SelectedProductId { get; set; }
 
         public ProductSelectionForm()
         {
             InitializeComponent();
 
-            // טעינת רשימת המוצרים מה-BL והצגתם בטבלה
             try
             {
                 dgvAllProducts.DataSource = Factory.Get().Product.GetList().ToList();
@@ -28,24 +26,66 @@ namespace UI
                 MessageBox.Show("Error loading products: " + ex.Message);
             }
         }
-
         private void btnSelect_Click(object sender, EventArgs e)
         {
-            // בדיקה שנבחרה שורה בטבלה
-            if (dgvAllProducts.CurrentRow != null)
+            // בדיקה שנבחרה שורה ושהיא לא השורה הריקה החדשה
+            if (dgvAllProducts.CurrentRow != null && !dgvAllProducts.CurrentRow.IsNewRow)
             {
-                // שליפת ה-ID מתוך תא בשורה הנבחרת
-                // הערה: וודא שב-Designer הגדרת את ה-DataPropertyName של העמודה ל-"ID" או "ProductID"
-                SelectedProductId = (int)dgvAllProducts.CurrentRow.Cells["colProductID"].Value;
+                try
+                {
+                    // שליפת האובייקט המקורי שקשור לשורה (Product)
+                    var selectedProduct = dgvAllProducts.CurrentRow.DataBoundItem as BO.Product;
 
-                // החזרת תשובה חיובית וסגירת החלון
-                this.DialogResult = DialogResult.OK;
-                this.Close();
+                    if (selectedProduct != null)
+                    {
+                        SelectedProductId = selectedProduct.barcode;
+                        this.DialogResult = DialogResult.OK;
+                        this.Close();
+                    }
+                    else
+                    {
+                        // אם DataBoundItem לא עובד, נסי לשלוף לפי אינדקס העמודה (למשל עמודה מספר 1)
+                        SelectedProductId = (int)dgvAllProducts.CurrentRow.Cells[1].Value;
+                        this.DialogResult = DialogResult.OK;
+                        this.Close();
+                    }
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("נא לוודא שבחרת מוצר תקין מהרשימה.");
+                }
             }
-            else
-            {
-                MessageBox.Show("Please select a product from the list first.");
-            }
+        }
+        //private void btnSelect_Click(object sender, EventArgs e)
+        //{
+        //    if (dgvAllProducts.CurrentRow != null)
+        //    {
+        //        try
+        //        {
+        //            // גישה גמישה: אם העמודה colProductID לא נמצאה, ננסה לשלוף ישירות מהאובייקט
+        //            var selectedRow = dgvAllProducts.CurrentRow.DataBoundItem;
+        //            if (selectedRow != null)
+        //            {
+        //                SelectedProductId = ((dynamic)selectedRow).ID;
+        //            }
+        //            else
+        //            {
+        //                SelectedProductId = (int)dgvAllProducts.CurrentRow.Cells["colProductID"].Value;
+        //            }
+
+        //            this.DialogResult = DialogResult.OK;
+        //            this.Close();
+        //        }
+        //        catch (Exception)
+        //        {
+        //            MessageBox.Show("נא לוודא שבחרת מוצר תקין מהרשימה.");
+        //        }
+        //    }
+
+        //}
+        private void dgvAllProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

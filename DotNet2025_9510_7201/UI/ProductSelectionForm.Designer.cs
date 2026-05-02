@@ -33,6 +33,10 @@
             btnSelect = new Button();
             label1 = new Label();
             label2 = new Label();
+            colProductId = new DataGridViewTextBoxColumn();
+            colProductName = new DataGridViewTextBoxColumn();
+            colPrice = new DataGridViewTextBoxColumn();
+            colAmount = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvAllProducts).BeginInit();
             SuspendLayout();
             // 
@@ -46,11 +50,13 @@
             // dgvAllProducts
             // 
             dgvAllProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAllProducts.Location = new Point(73, 100);
+            dgvAllProducts.Columns.AddRange(new DataGridViewColumn[] { colProductId, colProductName, colPrice, colAmount });
+            dgvAllProducts.Location = new Point(73, 129);
             dgvAllProducts.Name = "dgvAllProducts";
             dgvAllProducts.RowHeadersWidth = 51;
-            dgvAllProducts.Size = new Size(300, 188);
+            dgvAllProducts.Size = new Size(553, 188);
             dgvAllProducts.TabIndex = 1;
+            dgvAllProducts.CellContentClick += dgvAllProducts_CellContentClick;
             // 
             // btnSelect
             // 
@@ -80,6 +86,38 @@
             label2.TabIndex = 4;
             label2.Text = "To view all products";
             // 
+            // colProductId
+            // 
+            colProductId.DataPropertyName = "id";
+            colProductId.HeaderText = "Product ID";
+            colProductId.MinimumWidth = 6;
+            colProductId.Name = "colProductId";
+            colProductId.Width = 125;
+            // 
+            // colProductName
+            // 
+            colProductName.DataPropertyName = "name";
+            colProductName.HeaderText = "Product Name";
+            colProductName.MinimumWidth = 6;
+            colProductName.Name = "colProductName";
+            colProductName.Width = 125;
+            // 
+            // colPrice
+            // 
+            colPrice.DataPropertyName = "price";
+            colPrice.HeaderText = "Price";
+            colPrice.MinimumWidth = 6;
+            colPrice.Name = "colPrice";
+            colPrice.Width = 125;
+            // 
+            // colAmount
+            // 
+            colAmount.DataPropertyName = "amount";
+            colAmount.HeaderText = "Quantity";
+            colAmount.MinimumWidth = 6;
+            colAmount.Name = "colAmount";
+            colAmount.Width = 125;
+            // 
             // ProductSelectionForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -104,5 +142,9 @@
         private Button btnSelect;
         private Label label1;
         private Label label2;
+        private DataGridViewTextBoxColumn colProductId;
+        private DataGridViewTextBoxColumn colProductName;
+        private DataGridViewTextBoxColumn colPrice;
+        private DataGridViewTextBoxColumn colAmount;
     }
 }

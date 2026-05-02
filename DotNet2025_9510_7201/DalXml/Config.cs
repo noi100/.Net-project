@@ -1,5 +1,6 @@
 ﻿using System.Xml.Linq;
 
+namespace Dal;
 internal static class Config
 {
     private const string s_config_xml = "data-config";

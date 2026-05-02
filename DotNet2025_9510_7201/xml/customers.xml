@@ -1,3 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfCustomers>
-</ArrayOfCustomers>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <id>4</id>
+    <name>Mosh Choen</name>
+    <adress>Zit street</adress>
+    <phoneNumber>528687741</phoneNumber>
+  </Customer>
+  <Customer>
+    <id>521</id>
+    <name>Michal Levi</name>
+    <adress>Tamar street</adress>
+    <phoneNumber>504187741</phoneNumber>
+  </Customer>
+  <Customer>
+    <id>9562</id>
+    <name>Thila Caz</name>
+    <adress>Rimon street</adress>
+    <phoneNumber>533687741</phoneNumber>
+  </Customer>
+  <Customer>
+    <id>50</id>
+    <name>Yonatan Yahakobov</name>
+    <adress>Gefen street</adress>
+    <phoneNumber>527108664</phoneNumber>
+  </Customer>
+  <Customer>
+    <id>630</id>
+    <name>Hevyatar Lavi</name>
+    <adress>Thena street</adress>
+    <phoneNumber>544487741</phoneNumber>
+  </Customer>
+  <Customer>
+    <id>123</id>
+    <name>ball</name>
+    <adress>dinar</adress>
+    <phoneNumber>548236585</phoneNumber>
+  </Customer>
+  <Customer>
+    <id>123456</id>
+    <name>sari</name>
+    <adress>avni nezer</adress>
+    <phoneNumber>548566736</phoneNumber>
+  </Customer>
+</ArrayOfCustomer>

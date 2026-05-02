@@ -172,6 +172,7 @@
             ProductIDLableS.Size = new Size(77, 20);
             ProductIDLableS.TabIndex = 17;
             ProductIDLableS.Text = "Product id";
+            ProductIDLableS.Click += ProductIDLableS_Click;
             // 
             // txtProductS
             // 

@@ -50,6 +50,7 @@
             button2.TabIndex = 1;
             button2.Text = "Placing an order / customer";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // WelcomeForm
             // 

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace DalXml
+namespace Dal
 {
     internal class ProductImplementation:IProduct
     {

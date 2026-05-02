@@ -124,5 +124,10 @@ namespace UI
                 }
             }
         }
+
+        private void ProductIDLableS_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

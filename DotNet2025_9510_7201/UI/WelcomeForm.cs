@@ -26,7 +26,14 @@ namespace UI
             managerWindow.Show();
 
             // 3. אופציונלי: הסתרת חלון הכניסה הנוכחי כדי שלא יפריע
-             this.Hide();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // פתיחת חלון ההזמנות
+            OrderForm orderWindow = new OrderForm();
+            orderWindow.ShowDialog();
         }
     }
 }

@@ -1,0 +1,17 @@
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\BLTest2.exe
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\BLTest2.deps.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\BLTest2.runtimeconfig.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\BLTest2.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\bin\BLTest2.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.csproj.AssemblyReference.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.AssemblyInfoInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.AssemblyInfo.cs
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.csproj.CoreCompileInputs.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.sourcelink.json
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.csproj.Up2Date
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\refint\BLTest2.dll
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.pdb
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\BLTest2.genruntimeconfig.cache
+D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\BLTest2\obj\Debug\ref\BLTest2.dll

@@ -1,3 +1,4 @@
+using UI;
 namespace UI
 {
     public partial class ManagerForm : Form
@@ -21,7 +22,7 @@ namespace UI
 
         private void SaleManagementButton_Click(object sender, EventArgs e)
         {
-            new SaleListForm().ShowDialog();
+            new SaleListFrom().ShowDialog();
         }
 
     

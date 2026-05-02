@@ -1,3 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfSale>
+<ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sale>
+    <id>1058</id>
+    <amountToGetSale>1</amountToGetSale>
+    <priceSale>8</priceSale>
+    <idProduct>30</idProduct>
+    <IsClubMemberOnly>false</IsClubMemberOnly>
+    <start>2026-04-30T23:26:43.789638+03:00</start>
+    <end>2026-05-07T23:26:43.7953185+03:00</end>
+  </Sale>
+  <Sale>
+    <id>1068</id>
+    <amountToGetSale>5</amountToGetSale>
+    <priceSale>180</priceSale>
+    <idProduct>21</idProduct>
+    <IsClubMemberOnly>true</IsClubMemberOnly>
+    <start>2026-04-30T23:26:44.0294323+03:00</start>
+    <end>2026-05-07T23:26:44.0294433+03:00</end>
+  </Sale>
+  <Sale>
+    <id>1078</id>
+    <amountToGetSale>2</amountToGetSale>
+    <priceSale>100</priceSale>
+    <idProduct>10</idProduct>
+    <IsClubMemberOnly>true</IsClubMemberOnly>
+    <start>2026-04-30T23:26:44.2444791+03:00</start>
+    <end>2026-05-30T23:26:44.2444894+03:00</end>
+  </Sale>
+  <Sale>
+    <id>1088</id>
+    <amountToGetSale>1</amountToGetSale>
+    <priceSale>110</priceSale>
+    <idProduct>15</idProduct>
+    <IsClubMemberOnly>false</IsClubMemberOnly>
+    <start>2026-04-30T23:26:44.4271007+03:00</start>
+    <end>2026-05-07T23:26:44.4271156+03:00</end>
+  </Sale>
+  <Sale>
+    <id>1098</id>
+    <amountToGetSale>3</amountToGetSale>
+    <priceSale>80</priceSale>
+    <idProduct>40</idProduct>
+    <IsClubMemberOnly>true</IsClubMemberOnly>
+    <start>2026-04-30T23:26:44.6423836+03:00</start>
+    <end>2026-05-07T23:26:44.6423943+03:00</end>
+  </Sale>
 </ArrayOfSale>

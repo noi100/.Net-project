@@ -1,3 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfProduct>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <barcode>1028</barcode>
+    <name>magnet ball</name>
+    <category>BoardGames</category>
+    <price>60</price>
+    <amount>20</amount>
+  </Product>
+  <Product>
+    <barcode>1048</barcode>
+    <name>soft doll</name>
+    <category>Dols</category>
+    <price>30</price>
+    <amount>20</amount>
+  </Product>
+  <Product>
+    <barcode>1008</barcode>
+    <name>glue</name>
+    <category>ArtAndCraft</category>
+    <price>10</price>
+    <amount>45</amount>
+  </Product>
+  <Product>
+    <barcode>1038</barcode>
+    <name>Clicks</name>
+    <category>BuildingToys</category>
+    <price>10</price>
+    <amount>119</amount>
+  </Product>
+  <Product>
+    <barcode>1018</barcode>
+    <name>ball</name>
+    <category>Outdoor</category>
+    <price>40</price>
+    <amount>56</amount>
+  </Product>
+  <Product>
+    <barcode>1108</barcode>
+    <name>ball</name>
+    <category>BoardGames</category>
+    <price>25</price>
+    <amount>9</amount>
+  </Product>
 </ArrayOfProduct>
