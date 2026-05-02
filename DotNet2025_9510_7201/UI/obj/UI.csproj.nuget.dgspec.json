@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\UI\\UI.csproj": {}
+    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\UI\\UI.csproj": {}
   },
   "projects": {
-    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj": {
+    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\BL\\obj\\",
+        "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\בני ראם\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\BL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\בני ראם\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +32,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj"
               },
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj"
               },
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj"
               }
             }
           }
@@ -49,7 +53,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -70,21 +75,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\obj\\",
+        "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\בני ראם\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\בני ראם\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,7 +118,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -130,21 +140,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj": {
+    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\בני ראם\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalList\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\בני ראם\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,11 +172,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj"
               },
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj"
               }
             }
           }
@@ -176,7 +190,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -197,21 +212,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj": {
+    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj",
+        "projectUniqueName": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj",
         "projectName": "DalXml",
-        "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalXml\\obj\\",
+        "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj",
+        "packagesPath": "C:\\Users\\בני ראם\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalXml\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\בני ראם\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -225,8 +244,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -240,7 +259,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -261,21 +281,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj": {
+    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj",
+        "projectUniqueName": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\Tools\\obj\\",
+        "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\בני ראם\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\Tools\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\בני ראם\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -300,7 +324,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -321,21 +346,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\UI\\UI.csproj": {
+    "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\UI\\obj\\",
+        "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\בני ראם\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\UI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\בני ראם\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -349,14 +378,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\BL\\BL.csproj"
               },
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalList\\DalList.csproj"
               },
-              "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj": {
-                "projectPath": "D:\\c# פרויקט 10\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj"
+              "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj": {
+                "projectPath": "C:\\Users\\בני ראם\\Pictures\\לימודים\\c# מתקדם\\פרויקט גמוררררררררררר\\.Net-project\\DotNet2025_9510_7201\\DalXml\\DalXml.csproj"
               }
             }
           }
@@ -370,7 +399,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -394,7 +424,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

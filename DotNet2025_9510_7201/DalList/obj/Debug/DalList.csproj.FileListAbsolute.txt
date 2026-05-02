@@ -65,3 +65,17 @@ D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalLis
 D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\refint\DalList.dll
 D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.pdb
 D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\ref\DalList.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\bin\DalList.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\bin\DalList.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\bin\DalList.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\refint\DalList.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\DalList.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\DalList\obj\Debug\ref\DalList.dll

@@ -162,6 +162,7 @@
             Controls.Add(BarcodeLabel1);
             Name = "ProductForm";
             Text = "ProductForm";
+            Load += ProductForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

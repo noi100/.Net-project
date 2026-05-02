@@ -43,3 +43,31 @@ D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\refint\UI.d
 D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.pdb
 D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.genruntimeconfig.cache
 D:\c# פרויקט 10\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\ref\UI.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\bin\UI.exe
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\bin\UI.deps.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\bin\UI.runtimeconfig.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\bin\UI.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\bin\UI.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.CustomerForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.CustomerListForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ManagerForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.OrderForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ProductForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ProductListForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.ProductSelectionForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.SaleForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.SaleListFrom.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.WelcomeForm.resources
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.sourcelink.json
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\refint\UI.dll
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.pdb
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\בני ראם\Pictures\לימודים\c# מתקדם\פרויקט גמוררררררררררר\.Net-project\DotNet2025_9510_7201\UI\obj\Debug\ref\UI.dll

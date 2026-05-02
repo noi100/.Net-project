@@ -17,12 +17,18 @@
       },
       "DalFacade/1.0.0": {
         "runtime": {
-          "DalFacade.dll": {}
+          "DalFacade.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Tools/1.0.0": {
         "runtime": {
-          "Tools.dll": {}
+          "Tools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

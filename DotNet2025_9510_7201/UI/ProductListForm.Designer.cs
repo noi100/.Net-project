@@ -30,9 +30,6 @@
         {
             AddingNewProductbutton = new Button();
             dataGridView1 = new DataGridView();
-            colName = new DataGridViewTextBoxColumn();
-            colPrice = new DataGridViewTextBoxColumn();
-            colStock = new DataGridViewTextBoxColumn();
             FilterCategoryLable = new Label();
             cmbCategoryFilter = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -40,7 +37,7 @@
             // 
             // AddingNewProductbutton
             // 
-            AddingNewProductbutton.Location = new Point(297, 249);
+            AddingNewProductbutton.Location = new Point(524, 387);
             AddingNewProductbutton.Name = "AddingNewProductbutton";
             AddingNewProductbutton.Size = new Size(200, 51);
             AddingNewProductbutton.TabIndex = 0;
@@ -51,52 +48,32 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { colName, colPrice, colStock });
-            dataGridView1.Location = new Point(37, 31);
+            dataGridView1.Location = new Point(34, 109);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(426, 192);
+            dataGridView1.Size = new Size(704, 260);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             // 
-            // colName
-            // 
-            colName.HeaderText = "Product name";
-            colName.MinimumWidth = 6;
-            colName.Name = "colName";
-            colName.Width = 125;
-            // 
-            // colPrice
-            // 
-            colPrice.HeaderText = "Price";
-            colPrice.MinimumWidth = 6;
-            colPrice.Name = "colPrice";
-            colPrice.Width = 125;
-            // 
-            // colStock
-            // 
-            colStock.HeaderText = "In stock";
-            colStock.MinimumWidth = 6;
-            colStock.Name = "colStock";
-            colStock.Width = 125;
-            // 
             // FilterCategoryLable
             // 
             FilterCategoryLable.AutoSize = true;
-            FilterCategoryLable.Location = new Point(37, 249);
+            FilterCategoryLable.Location = new Point(34, 64);
             FilterCategoryLable.Name = "FilterCategoryLable";
             FilterCategoryLable.Size = new Size(129, 20);
             FilterCategoryLable.TabIndex = 5;
             FilterCategoryLable.Text = "Filter by Category:";
+            FilterCategoryLable.Click += FilterCategoryLable_Click;
             // 
             // cmbCategoryFilter
             // 
             cmbCategoryFilter.FormattingEnabled = true;
-            cmbCategoryFilter.Location = new Point(37, 297);
+            cmbCategoryFilter.Location = new Point(206, 64);
             cmbCategoryFilter.Name = "cmbCategoryFilter";
             cmbCategoryFilter.Size = new Size(151, 28);
             cmbCategoryFilter.TabIndex = 6;
+            cmbCategoryFilter.SelectedIndexChanged += cmbCategoryFilter_SelectedIndexChanged;
             // 
             // ProductListForm
             // 

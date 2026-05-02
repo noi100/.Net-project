@@ -26,12 +26,14 @@ namespace UI
                 LoadProductDetails();
                 SaveButton.Visible = true;
                 SaveButton.Text = "עדכן מוצר";
+                DeleteProductButton1.Visible = true; // בעדכון מותר למחוק
             }
             else // מצב הוספה
             {
-                SaveButton.Visible = false; // אי אפשר למחוק מוצר שעוד לא קיים
+                SaveButton.Visible = true; // חייב להיות True כדי שנוכל לשמור!
                 SaveButton.Text = "הוסף מוצר";
-                txtBarcode.ReadOnly = false; // בהוספה המנהל צריך להקליד ברקוד
+                DeleteProductButton1.Visible = false; // בהוספה באמת אין מה למחוק
+                txtBarcode.ReadOnly = false;
             }
         }
 
@@ -60,7 +62,7 @@ namespace UI
 
         }
 
-      
+
 
         //שמירת שינויים או הוספת מוצר עי מנהל
 
@@ -130,6 +132,11 @@ namespace UI
                     MessageBox.Show("לא ניתן למחוק את המוצר: " + ex.Message, "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void ProductForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

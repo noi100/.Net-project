@@ -49,7 +49,7 @@
             ClientManagementButton.Name = "ClientManagementButton";
             ClientManagementButton.Size = new Size(208, 29);
             ClientManagementButton.TabIndex = 1;
-            ClientManagementButton.Text = "Client Management";
+            ClientManagementButton.Text = "Customer Management";
             ClientManagementButton.UseVisualStyleBackColor = true;
             ClientManagementButton.Click += ClientManagementButton_Click_1;
             // 

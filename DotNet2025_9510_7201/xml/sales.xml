@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
-    <id>1058</id>
-    <amountToGetSale>1</amountToGetSale>
-    <priceSale>8</priceSale>
-    <idProduct>30</idProduct>
-    <IsClubMemberOnly>false</IsClubMemberOnly>
-    <start>2026-04-30T23:26:43.789638+03:00</start>
-    <end>2026-05-07T23:26:43.7953185+03:00</end>
-  </Sale>
-  <Sale>
     <id>1068</id>
     <amountToGetSale>5</amountToGetSale>
     <priceSale>180</priceSale>
@@ -44,5 +35,14 @@
     <IsClubMemberOnly>true</IsClubMemberOnly>
     <start>2026-04-30T23:26:44.6423836+03:00</start>
     <end>2026-05-07T23:26:44.6423943+03:00</end>
+  </Sale>
+  <Sale>
+    <id>1138</id>
+    <amountToGetSale>2</amountToGetSale>
+    <priceSale>100</priceSale>
+    <idProduct>123</idProduct>
+    <IsClubMemberOnly>true</IsClubMemberOnly>
+    <start>2026-05-04T00:04:27.088</start>
+    <end>2026-05-20T00:04:27.088</end>
   </Sale>
 </ArrayOfSale>

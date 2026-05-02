@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Customer>
-    <id>4</id>
-    <name>Mosh Choen</name>
-    <adress>Zit street</adress>
-    <phoneNumber>528687741</phoneNumber>
-  </Customer>
-  <Customer>
     <id>521</id>
     <name>Michal Levi</name>
     <adress>Tamar street</adress>
@@ -41,5 +35,11 @@
     <name>sari</name>
     <adress>avni nezer</adress>
     <phoneNumber>548566736</phoneNumber>
+  </Customer>
+  <Customer>
+    <id>329147201</id>
+    <name>Noa</name>
+    <adress>hazait 5</adress>
+    <phoneNumber>583292809</phoneNumber>
   </Customer>
 </ArrayOfCustomer>
