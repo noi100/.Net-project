@@ -16,13 +16,13 @@ namespace UI
         private readonly BlApi.IBl _bl = BlApi.Factory.Get();
         private int _saleId;
 
-        // הבנאי - מקבל ID (0 להוספה, מספר אחר לעדכון)
+        // הבנאי נקבל 0 או 1 כדח לדעת למה הגיע לפה בגלל עדכון או בגלל הוספה
         public SaleForm(int id = 0)
         {
             InitializeComponent();
             _saleId = id;
 
-            if (_saleId != 0) // מצב עדכון - מילוי שדות אוטומטי
+            if (_saleId != 0) // בעדכון, מילוי שדות אוטומטי
             {
                 try
                 {
@@ -38,14 +38,14 @@ namespace UI
                     dateTimePickerEnd.Value = sale.end;
 
                     txtIDs.ReadOnly = true; // אי אפשר לשנות ID קיים
-                    btnDelete.Enabled = true; // כפתור מחיקה פעיל רק בעדכון
+                    btnDelete.Enabled = true; // כפתור מחיקה , רק בעדכון
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("שגיאה בטעינת נתוני המבצע: " + ex.Message);
                 }
             }
-            else // מצב הוספה - שדות ריקים/ברירת מחדל
+            else // מצב הוספה  
             {
                 txtIDs.Text = "אוטומטי";
                 txtIDs.ReadOnly = true;
@@ -61,9 +61,11 @@ namespace UI
             }
         }
 
+        //שמירת האובייקט עם נתונים מהשדות
+
         private void btnSave_Click(object sender, EventArgs e)
         {
-            // 1. בדיקת חסימה - ודאי ששדות חובה לא ריקים
+            //  בדיקת  ששדות חובה לא ריקים
             if (string.IsNullOrWhiteSpace(txtProductS.Text) || string.IsNullOrWhiteSpace(txtPriceS.Text))
             {
                 MessageBox.Show("נא למלא קוד מוצר ומחיר מבצע");
@@ -72,7 +74,7 @@ namespace UI
 
             try
             {
-                // 2. יצירת אובייקט BO חדש מהנתונים שהוזנו בטופס
+                // חיבור נתונים מהשדות לאובייקט חדש או מעודכן
                 BO.Sale saleToSave = new BO.Sale
                 {
                     id = _saleId,
@@ -84,7 +86,7 @@ namespace UI
                     end = dateTimePickerEnd.Value
                 };
 
-                // 3. שליחה ל-BL לפי המצב (הוספה או עדכון)
+                // בהתאם לערך שבמשתנה יתנהל כמחיקה או עדכון
                 if (_saleId == 0)
                 {
                     _bl.Sale.Add(saleToSave);
@@ -104,16 +106,18 @@ namespace UI
             }
         }
 
+        //מחיקת מבצע
         private void btnDelete_Click(object sender, EventArgs e)
         {
             var confirmResult = MessageBox.Show("האם את בטוחה שברצונך למחוק את המבצע לצמיתות?",
                                               "אישור מחיקה", MessageBoxButtons.YesNo);
 
+            //לאחר האישור מהמשתמש
             if (confirmResult == DialogResult.Yes)
             {
                 try
                 {
-                    // מחיקה מהשכבות (ה-BL קורא ל-DAL ומסיר מהרשימות)
+                    
                     _bl.Sale.Delete(_saleId);
                     MessageBox.Show("המבצע נמחק בהצלחה מכל השכבות");
                     this.Close();

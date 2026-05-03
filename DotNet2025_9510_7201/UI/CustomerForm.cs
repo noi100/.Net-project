@@ -14,7 +14,7 @@ namespace UI
 {
     public partial class CustomerForm : Form
     {
-        // חיבור ללוגיקה ומשתנה לשמירת ה-ID הנוכחי
+        // יצירת מופע כדי שנוכל לגשת ל-BL
         private readonly BlApi.IBl _bl = BlApi.Factory.Get();
         private int _customerId;
 
@@ -53,10 +53,11 @@ namespace UI
                 MessageBox.Show("שגיאה בטעינת הלקוח: " + ex.Message);
             }
         }
-        //מחיקת הלקוח הנוכחי , אישור משתמש ובדיקה האם אפשר למחוק את הלקוח במידה ואין לו הזמנות פתוחות
+        //מחיקת לקוח מהמערכת
         private void btnDeleteCus_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show("האם את בטוחה שברצונך למחוק לקוח זה?", "אישור מחיקה", MessageBoxButtons.YesNo);
+            //אם המשתמש אישר את המחיקה
             if (result == DialogResult.Yes)
             {
                 try
@@ -72,19 +73,20 @@ namespace UI
             }
         }
 
+        //שמירה/ עדכון של לקוח
         private void btnSaveCus_Click(object sender, EventArgs e)
         {
-            // 1. בדיקת תקינות - זה השלב הראשון!
+            //בדיקות תקינות
             if (string.IsNullOrWhiteSpace(txtIdCus.Text) ||
                 string.IsNullOrWhiteSpace(txtNameCus.Text) ||
                 string.IsNullOrWhiteSpace(txtPhoneCus.Text))
             {
                 MessageBox.Show("נא למלא את כל שדות החובה: תעודת זהות, שם ומספר טלפון.");
-                return; // עוצר את הפונקציה כאן ולא ממשיך לשמירה
+                return; // לא ניתן להמשיך אם לא עבר את כל הדיקות
             }
             try
             {
-                // יצירת אובייקט לקוח חדש מהנתונים בתיבות
+                // יצירת אובייקט לקוח חדש מהנתונים 
                 Customer customer = new Customer
                 {
                     id = int.Parse(txtIdCus.Text),

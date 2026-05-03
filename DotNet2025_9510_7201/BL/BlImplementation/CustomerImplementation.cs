@@ -39,12 +39,10 @@ namespace BlImplementation
             return doCust.ToBO();
         }
 
-        /// <summary>
         /// הוספת לקוח חדש למערכת
-        /// </summary>
         public void Add(BO.Customer customer)
         {
-            // בדיקות תקינות קלט (שלב 8)
+            // בדיקות תקינות קלט 
             if (customer.id <= 0)
                 throw new BO.BLInvalidInputException("תעודת זהות אינה תקינה.");
             if (string.IsNullOrWhiteSpace(customer.name))
@@ -52,7 +50,7 @@ namespace BlImplementation
 
             try
             {
-                // יצירת DO מה-BO (ה-record ב-Do משתמש ב-adress עם s אחת לפי הקובץ שלך)
+               
                 Do.Customer doCust = new Do.Customer(
                     customer.id,
                     customer.name!,

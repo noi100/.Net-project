@@ -53,7 +53,6 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(704, 260);
             dataGridView1.TabIndex = 4;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             // 
             // FilterCategoryLable
@@ -64,7 +63,6 @@
             FilterCategoryLable.Size = new Size(129, 20);
             FilterCategoryLable.TabIndex = 5;
             FilterCategoryLable.Text = "Filter by Category:";
-            FilterCategoryLable.Click += FilterCategoryLable_Click;
             // 
             // cmbCategoryFilter
             // 

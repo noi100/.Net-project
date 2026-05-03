@@ -51,19 +51,19 @@ namespace UI
 
             try
             {
-                // 1. קבלת כל הלקוחות מה-BL
+                //  קבלת כל הלקוחות מה-BL
                 var allCustomers = _bl.Customer.GetList();
 
-                // 2. בדיקה אם המשתמש הזין משהו בתיבת החיפוש
+                //הכנסת הערך שהוכנס לשורת החיפוש למשתנה
                 string searchText = textBoxCus.Text;
 
                 if (!string.IsNullOrWhiteSpace(searchText))
                 {
-                    // 3. סינון הרשימה: נציג רק לקוחות שה-ID שלהם מכיל את מה שהוקלד
+                    // סינון הלקוחות על פי שורת החיפוש
                     allCustomers = allCustomers.Where(c => c.id.ToString().Contains(searchText));
                 }
 
-                // 4. עדכון הטבלה עם הרשימה המסוננת (או המלאה אם התיבה ריקה)
+                // הצגת הלקוחות בטבלה לאחר הסינון
                 DataGridViewCus.DataSource = allCustomers.Select(c => new
                 {
                     ID = c.id,
@@ -82,38 +82,39 @@ namespace UI
         //בעת לחיצה על שורה של לקוח פתיחת החלון עם הפרטים שלו
         private void DataGridViewCus_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            // בדיקה שלא לחצנו על שורת הכותרת (RowIndex -1)
+            // בדיקה שלא לחצו על שורת הכותרת 
             if (e.RowIndex >= 0)
             {
-                // 1. שליפת ה-ID מהתא בעמודה שקראנו לה "ID" בשורה שנלחצה
-                // חשוב: השם "ID" חייב להיות זהה לשם שנתת בתוך ה-Select ב-LoadData
+                //שמירת ה ID של הלקוח והכנסתו למשתנה
                 var idValue = DataGridViewCus.Rows[e.RowIndex].Cells["ID"].Value;
 
+                //אם לחצנו על לקוח ויש לו ID נפתח חלון הפרטים שלו
                 if (idValue != null)
                 {
                     int selectedId = (int)idValue;
 
-                    // 2. יצירת מופע חדש של חלון פרטי הלקוח ושליחת ה-ID
+                    
                     CustomerForm customerDetails = new CustomerForm(selectedId);
 
-                    // 3. הצגת החלון
+                    // הצגת החלון עם פרטי לקוח
                     customerDetails.ShowDialog();
 
-                    // 4. ריענון הטבלה אחרי שהחלון נסגר (למקרה שהפרטים עודכנו)
+                   
                     LoadData();
                 }
             }
         }
 
+        //הוספת לקוח חדש
         private void AddClientbutton_Click(object sender, EventArgs e)
         {
-            // פתיחת החלון עם ID = 0 (מסמן הוספה חדשה)
+            // פתיחת חלון למילוי הפרטים
             CustomerForm addForm = new CustomerForm(0);
 
-            // הצגת החלון כדו-שיח (עוצר את הרצת החלון הראשי עד שזה נסגר)
+            //
             addForm.ShowDialog();
 
-            // אחרי שהמנהל סיים להוסיף וסגר את החלון - נרענן את הטבלה כדי לראות את הלקוח החדש
+            //ריענון נתוני הטבלה לאחר הוספת לקוח חדש
             LoadData();
         }
     }

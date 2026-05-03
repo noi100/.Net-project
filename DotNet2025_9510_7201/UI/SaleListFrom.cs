@@ -18,7 +18,7 @@ namespace UI
             LoadData(); // טעינת הנתונים בטעינת החלון 
         }
 
-        // פונקציית טעינת נתונים המותאמת לשדות ה-BO שלך 
+        // טעינת הנתונים  מה BO ומילוי הטבלה 
         private void LoadData()
         {
             try
@@ -45,21 +45,25 @@ namespace UI
             }
         }
 
-        // לחיצה כפולה על שורת מבצע לעדכון פרטים 
+        // עדכון פרטי המבצע בלחיצה כפולה על שורה בטבלה
         private void dataGridViewSales_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            //בדיקה שהלחיצה הייתה על שורה מלאה בטבלה 
             if (e.RowIndex >= 0)
             {
+                //שליפת ה ID של המבצע 
                 var idValue = dataGridViewSales.Rows[e.RowIndex].Cells["ID"].Value;
 
+                //בדיקה שאכן קיים
                 if (idValue != null)
                 {
                     int selectedSaleId = (int)idValue;
 
-                    // פתיחת חלון הפרטים עם ה-ID שנבחר (מצב עדכון) 
+                    // יצרית מופע של הטופס עם פרטי המבצע במצב של עדכון
                     SaleForm f = new SaleForm(selectedSaleId);
+                    //פתיחת החלון
                     f.ShowDialog();
-                    LoadData(); // ריענון הטבלה לאחר סגירת החלון
+                    LoadData(); // ריענון הטבלה 
                 }
             }
         }
@@ -67,13 +71,14 @@ namespace UI
         // כפתור להוספת מבצע חדש 
         private void btnAddSale_Click(object sender, EventArgs e)
         {
-            // פתיחת חלון הפרטים עם 0 (מצב הוספה - שדות ריקים) 
+            // יצרית מופע של הטופס עם פרטי המבצע במצב של מחיקה
             SaleForm f = new SaleForm(0);
             f.ShowDialog();
             LoadData(); // ריענון הטבלה לאחר הוספה
         }
 
-        //סינון לפי הID שהוכנס בתיבת הטקסט
+
+        //סינון נתוני הטבלה על פי ערך מהמשתמש
         private void textBoxSale_TextChanged(object sender, EventArgs e)
         {
             try
@@ -81,7 +86,7 @@ namespace UI
                 var allSales = _bl.Sale.GetList();
                 string searchText = textBoxSale.Text;
 
-                // סינון הרשימה לפי ה-ID שהוקלד
+                //סינון לפי הערך בשורת הסינון
                 if (!string.IsNullOrWhiteSpace(searchText))
                 {
                     allSales = allSales.Where(s => s.id.ToString().Contains(searchText));

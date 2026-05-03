@@ -9,41 +9,45 @@ namespace UI
 {
     public partial class ProductForm : Form
     {
-        // 1. יצירת המופע של ה-BL (זה המנוע של המערכת)
+        //  יצירת מופע כדי שנוכל לגשת לBL
         private readonly BlApi.IBl _bl = BlApi.Factory.Get();
 
         private int _productBarcode;
 
+        //נשלח פרמרט כדי לבדוק האם לעדכן או להוסיף מוצר חדש
         public ProductForm(int barcode = 0)
         {
             InitializeComponent();
             _productBarcode = barcode;
 
+            //טעינת רשימת הקטגוריות לתיבת הבחירה
             cmbCategory.DataSource = Enum.GetValues(typeof(BO.Category));
 
             if (_productBarcode != 0) // מצב עדכון
             {
-                LoadProductDetails();
+                LoadProductDetails();//טוען את נתוני המוצר
                 SaveButton.Visible = true;
                 SaveButton.Text = "עדכן מוצר";
-                DeleteProductButton1.Visible = true; // בעדכון מותר למחוק
+                DeleteProductButton1.Visible = true; // בעדכון אפשר למחוק
             }
             else // מצב הוספה
             {
-                SaveButton.Visible = true; // חייב להיות True כדי שנוכל לשמור!
+                SaveButton.Visible = true; //כפתור שמירה גלוי
                 SaveButton.Text = "הוסף מוצר";
-                DeleteProductButton1.Visible = false; // בהוספה באמת אין מה למחוק
-                txtBarcode.ReadOnly = false;
+                DeleteProductButton1.Visible = false; // בהוספה  אא למחוק
+                txtBarcode.ReadOnly = false;//ניתן להגידר ברקוד
             }
         }
 
+        //טעינת פרטי המוצר מהכבה BL
         private void LoadProductDetails()
         {
             try
             {
-                // עכשיו המחשב יזהה את _bl
+                //טעינה למשתנה
                 var product = _bl.Product.GetProduct(_productBarcode);
 
+                //המרה למחרוזות
                 txtBarcode.Text = product.barcode.ToString();
                 txtName.Text = product.name;
                 txtPrice.Text = product.price.ToString();
@@ -65,10 +69,10 @@ namespace UI
 
 
         //שמירת שינויים או הוספת מוצר עי מנהל
-
         private void SaveButton_Click(object sender, EventArgs e)
         {
             try
+                //יצירת אובייקט חדש ומילוי הפקדים עי קלט מהמשתמש
             {
                 BO.Product productToSave = new BO.Product
                 {
@@ -100,11 +104,12 @@ namespace UI
                 MessageBox.Show("שגיאה: " + ex.Message);
             }
         }
-        //מחיקת מוצר עי מנהל
 
+
+        //מחיקת מוצר עי מנהל
         private void DeleteProductButton1_Click_1(object sender, EventArgs e)
         {
-            // 1. קפיצת תיבת אישור - כדי למנוע טעויות
+            // תיבת אישור לפני חיקה
             var result = MessageBox.Show(
                 "האם את בטוחה שברצונך למחוק את המוצר לצמיתות?",
                 "אישור מחיקה",
@@ -112,23 +117,23 @@ namespace UI
                 MessageBoxIcon.Warning
             );
 
-            // 2. אם המנהל לחץ על 'Yes'
+            //אם התקבל אישור ביצוע המחיקה
             if (result == DialogResult.Yes)
             {
                 try
                 {
-                    // 3. קריאה ל-BL למחיקת המוצר לפי הברקוד שלו
+                    // מחיקת המוצר לפי הברקוד שלו קריאה ל BL
                     _bl.Product.Delete(_productBarcode);
 
-                    // 4. הודעת הצלחה
+                    //הודעה כשהצליח
                     MessageBox.Show("המוצר נמחק בהצלחה!", "מחיקה", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    // 5. סגירת החלון וחזרה לטבלה (שתתרענן אוטומטית)
+                    //סגירת החלון אוטומטית
                     this.Close();
                 }
                 catch (Exception ex)
                 {
-                    // אם המחיקה נכשלה (למשל אם המוצר נמצא בהזמנה קיימת)
+                    // אם המחיקה נכשלה
                     MessageBox.Show("לא ניתן למחוק את המוצר: " + ex.Message, "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }

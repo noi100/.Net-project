@@ -45,7 +45,7 @@ namespace BlImplementation
         /// הוספת מוצר חדש למערכת
         public void Add(BO.Product product)
         {
-            // בדיקות תקינות בסיסיות (שלב 8)
+            //בדיקות תקינות קלט
             if (product == null)
                 throw new BO.BLInvalidInputException("לא התקבלו נתוני מוצר.");
             if (product.barcode <= 0)

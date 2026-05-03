@@ -14,7 +14,7 @@ namespace UI
         {
             InitializeComponent();
 
-            // טעינת הקטגוריות ל-ComboBox
+            // טעינת הקטגוריות לטבלה
             cmbCategoryFilter.DataSource = Enum.GetValues(typeof(BO.Category));
             cmbCategoryFilter.SelectedIndex = -1; // התחלה ללא סינון
 
@@ -25,16 +25,16 @@ namespace UI
         {
             try
             {
-                // 1. קבלת כל המוצרים מה-BL
+                //  קבלת כל המוצרים מה-BL
                 var products = _bl.Product.GetList();
 
-                // 2. סינון הרשימה במידה ונבחרה קטגוריה
+                //  סינון הרשימה במידה ונבחרה קטגוריה
                 if (filter != null)
                 {
                     products = products.Where(p => (BO.Category)p.category == filter);
                 }
 
-                // 3. עדכון הטבלה עם אובייקטים אנונימיים (כמו בלקוחות)
+                //יצירת אובייקט מזמן ריצה אנונימי והצגת העמודות הרצויות בטבלה
                 dataGridView1.DataSource = products.Select(p => new
                 {
                     Barcode = p.barcode,
@@ -44,6 +44,7 @@ namespace UI
                     Amount = p.amount
                 }).ToList();
 
+                //עיצוב הטבלה כדי שתתאים לגודל התוכן
                 dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             }
             catch (Exception ex)
@@ -52,7 +53,7 @@ namespace UI
             }
         }
 
-        // אירוע שינוי בחירה ב-ComboBox[cite: 1]
+        // אירוע הסינון של הטבלה לפי קטגוריות
         private void cmbCategoryFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cmbCategoryFilter.SelectedItem is BO.Category selected)
@@ -61,6 +62,7 @@ namespace UI
             }
         }
 
+        //אירוע של הוספת פרויקט פתיחת העמוד למילוי נתונים
         private void AddingNewProductbutton_Click(object sender, EventArgs e)
         {
             ProductForm addForm = new ProductForm(0);
@@ -68,18 +70,23 @@ namespace UI
             LoadData();
         }
 
+        //אירוע של חיצה כפולה על שורה בטבלה הצגת פרטי המוצר עם אפשרותלשינוי או מחיקה
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
-                // כאן אנחנו שולפים לפי שם העמודה "Barcode" שהגדרנו ב-Select
+                //ניגש לשורה הנפרדת נשלוף טת הברקוד של המוצר שנמצא בשורה ונכניס למשתנה
+               
                 var barcodeValue = dataGridView1.Rows[e.RowIndex].Cells["Barcode"].Value;
 
+                //כדי למנוע קריסה במידה והשורה ריקה
+                //נכנס חקוד רק אם השורה מלאה
                 if (barcodeValue != null)
                 {
                     int selectedBarcode = (int)barcodeValue;
+                    //פתיחת החלון של מוצר עם פרטי המוצר הנבחר
                     new ProductForm(selectedBarcode).ShowDialog();
-                    LoadData();
+                    LoadData();//עדכון הטבלה לאחר השינוי
                 }
             }
         }

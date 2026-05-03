@@ -19,13 +19,13 @@ namespace UI
 
         private void ManagerFormButton_Click(object sender, EventArgs e)
         {
-            // 1. יצירת מופע חדש של חלון המנהל
+            //  יצירת מופע חדש של חלון המנהל
             ManagerForm managerWindow = new ManagerForm();
 
-            // 2. הצגת חלון המנהל
+            // פתיחת חלון מנהל
             managerWindow.Show();
 
-            // 3. אופציונלי: הסתרת חלון הכניסה הנוכחי כדי שלא יפריע
+            //הסתרת חלון הכניסה
             this.Hide();
         }
 
